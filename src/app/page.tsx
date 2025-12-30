@@ -30,8 +30,11 @@ export default function Page() {
                   & Former C++ Developer
                 </h2>
 
-                <div className="text-lg md:text-xl lg:text-2xl text-purple-600 dark:text-purple-400">
-                  <TypeWriter title={title2} />
+                <div className="text-lg md:text-xl lg:text-2xl">
+                  <span className="text-foreground">Also </span>
+                  <span className="text-purple-600 dark:text-purple-400">
+                    <TypeWriter title={title2} />
+                  </span>
                 </div>
               </div>
 
