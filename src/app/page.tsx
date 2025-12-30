@@ -50,9 +50,10 @@ export default function Page() {
 
             {/* Right Column */}
             <div className="flex flex-col justify-center space-y-6">
+              {/* Block 1: Technical Expertise */}
               <div className="border-l-4 border-purple-600 dark:border-purple-400 pl-6">
                 <h3 className="text-xl md:text-2xl font-semibold mb-4 text-purple-600 dark:text-purple-400">
-                  15+ years experience in:
+                  Technical Expertise
                 </h3>
                 <ul className="space-y-3 text-base md:text-lg">
                   <li className="flex items-start">
@@ -69,30 +70,41 @@ export default function Page() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
-                    <span>Cross-functional team leadership (8 developers)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
                     <span>C++, market microstructure & system design</span>
                   </li>
                 </ul>
               </div>
 
-              <div className="space-y-4 text-base md:text-lg leading-relaxed">
-                <p>
-                  Expert in leading cross-functional teams, developing high-performance trading systems, and delivering low-latency infrastructure. Strong knowledge of C++, market microstructure, system design, and simulation-to-production strategy alignment. Proven ability to drive innovation, unify teams, and integrate platforms.
-                </p>
-
-                <p className="text-muted-foreground">
-                  Skilled in end-to-end project management: gathering and analysing requirements from quants and business stakeholders, defining technical deliverables, breaking down tasks, and coordinating development, QA, and APS teams across multiple sites to ensure timely, high-quality delivery of trading solutions.
-                </p>
+              {/* Block 2: Leadership & Project Management */}
+              <div className="border-l-4 border-purple-600 dark:border-purple-400 pl-6">
+                <h3 className="text-xl md:text-2xl font-semibold mb-4 text-purple-600 dark:text-purple-400">
+                  Leadership & Project Management
+                </h3>
+                <ul className="space-y-3 text-base md:text-lg">
+                  <li className="flex items-start">
+                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
+                    <span>Leading cross-functional teams to deliver trading solutions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
+                    <span>Gathering requirements from quants and business stakeholders</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
+                    <span>Coordinating development, QA, and APS teams across multiple sites</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
+                    <span>Ensuring high-quality, timely delivery of trading solutions</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
 
           <div className="pb-4">
             <p className="text-xs md:text-sm lg:text-base text-muted-foreground">
-              Based in Paris, France • Currently employed • Open to select opportunities • Willing to travel
+              Based in Paris, France • Working across Paris and London • Currently employed • Open to select opportunities
             </p>
           </div>
         </div>
