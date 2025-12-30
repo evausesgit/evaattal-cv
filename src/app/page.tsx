@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import TypeWriter from "@/components/type-writer"
 
 export default function Page() {
-  const title1 = "Hello, I am Eva ATTAL"
+  const title1 = "Hello, I am Eva ATTAL,"
   const title2 = titles.sort(() => Math.random() - 0.5)
   const title3 = "Senior Project Manager & Quantitative Developer"
 
@@ -17,12 +17,12 @@ export default function Page() {
         <div className="flex h-screen flex-col justify-between px-4 tracking-tight">
           <div className="min-h-[56px] sm:min-h-[72px]"></div>
           <div className="flex flex-col pb-10 md:pb-20">
-            <span className="text-2xl md:text-4xl lg:text-5xl">
-              {title1}
-            </span>
-            <span className="text-2xl text-purple-600 dark:text-purple-400 md:text-4xl lg:text-5xl py-2">
-              <TypeWriter title={title2} />
-            </span>
+            <div className="text-2xl md:text-4xl lg:text-5xl">
+              <span>{title1}</span>{" "}
+              <span className="text-purple-600 dark:text-purple-400">
+                <TypeWriter title={title2} />
+              </span>
+            </div>
             <h1 className="text-4xl font-medium md:text-6xl lg:text-7xl pt-4">
               {title3}
             </h1>
