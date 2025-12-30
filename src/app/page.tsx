@@ -53,32 +53,7 @@ export default function Page() {
 
             {/* Right Column */}
             <div className="flex flex-col justify-center space-y-6">
-              {/* Block 1: Technical Expertise */}
-              <div className="border-l-4 border-purple-600 dark:border-purple-400 pl-6">
-                <h3 className="text-xl md:text-2xl font-semibold mb-4 text-purple-600 dark:text-purple-400">
-                  Technical Expertise
-                </h3>
-                <ul className="space-y-3 text-base md:text-lg">
-                  <li className="flex items-start">
-                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
-                    <span>Electronic trading & automated market making</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
-                    <span>Cash equity execution & algorithmic strategies</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
-                    <span>Low-latency infrastructure & high-performance systems</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
-                    <span>C++, market microstructure & system design</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Block 2: Leadership & Project Management */}
+              {/* Block 1: Leadership & Project Management */}
               <div className="border-l-4 border-purple-600 dark:border-purple-400 pl-6">
                 <h3 className="text-xl md:text-2xl font-semibold mb-4 text-purple-600 dark:text-purple-400">
                   Leadership & Project Management
@@ -99,6 +74,31 @@ export default function Page() {
                   <li className="flex items-start">
                     <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
                     <span>Ensuring high-quality, timely delivery of trading solutions</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Block 2: Technical Expertise */}
+              <div className="border-l-4 border-purple-600 dark:border-purple-400 pl-6">
+                <h3 className="text-xl md:text-2xl font-semibold mb-4 text-purple-600 dark:text-purple-400">
+                  Technical Expertise
+                </h3>
+                <ul className="space-y-3 text-base md:text-lg">
+                  <li className="flex items-start">
+                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
+                    <span>Electronic trading & automated market making</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
+                    <span>Cash equity execution & algorithmic strategies</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
+                    <span>Low-latency infrastructure & high-performance systems</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-purple-600 dark:text-purple-400">•</span>
+                    <span>C++, market microstructure & system design</span>
                   </li>
                 </ul>
               </div>
