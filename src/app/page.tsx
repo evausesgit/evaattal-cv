@@ -26,7 +26,7 @@ export default function Page() {
                 </h1>
 
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 leading-tight">
-                  Trading Technology Leader<br/>
+                  Trading Technology Leader<br />
                   & C++ Expert
                 </h2>
 
@@ -92,7 +92,7 @@ export default function Page() {
 
           <div className="pb-4">
             <p className="text-xs md:text-sm lg:text-base text-muted-foreground">
-              Based in Paris, France • Open to new opportunities
+              Based in Paris, France • Currently employed • Open to select opportunities • Willing to travel
             </p>
           </div>
         </div>
