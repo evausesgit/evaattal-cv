@@ -27,7 +27,7 @@ export default function Page() {
 
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 leading-tight">
                   Trading Technology Leader<br />
-                  & C++ Expert
+                  & Former C++ Developer
                 </h2>
 
                 <div className="text-lg md:text-xl lg:text-2xl text-purple-600 dark:text-purple-400">
