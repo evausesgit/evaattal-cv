@@ -42,6 +42,28 @@ export default function Page() {
       ]
     },
     {
+      title: "Project Management",
+      skills: [
+        "Agile/Scrum",
+        "Book of Work management",
+        "Release & deployment processes",
+        "JIRA / Confluence",
+        "Requirements analysis",
+        "Risk mitigation"
+      ]
+    },
+    {
+      title: "Team Leadership",
+      skills: [
+        "Managing 8 developers",
+        "Cross-functional coordination (Dev, QA, APS)",
+        "Multi-site team management",
+        "Quant & business stakeholder liaison",
+        "Technical mentoring",
+        "Performance reviews"
+      ]
+    },
+    {
       title: "Data",
       skills: [
         "SQL",
@@ -81,7 +103,7 @@ export default function Page() {
   const projects = [
     {
       title: "Cryptocurrency Trading Framework",
-      description: "Built cryptocurrency trading framework (design + dev collaboration)"
+      description: "Built cryptocurrency trading framework"
     },
     {
       title: "Design Productivity Tool",

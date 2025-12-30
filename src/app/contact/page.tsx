@@ -57,7 +57,6 @@ export default function Page() {
             <div>
               <h2 className="text-xl font-semibold mb-1">Location</h2>
               <p className="text-lg">Paris, France</p>
-              <p className="text-muted-foreground">5 rue de Rémusat, 75016</p>
             </div>
           </div>
         </div>
