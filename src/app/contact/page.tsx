@@ -8,7 +8,7 @@ export default function Page() {
       <div className="max-w-2xl mx-auto w-full">
         <h1 className="text-4xl font-bold mb-2 md:text-5xl lg:text-6xl">Get in Touch</h1>
         <p className="text-lg mb-12 text-muted-foreground">
-          I'm always open to discussing new opportunities, collaborations, or just connecting with fellow tech enthusiasts.
+          I&apos;m always open to discussing new opportunities, collaborations, or just connecting with fellow tech enthusiasts.
         </p>
 
         <div className="space-y-6 mb-12">
