@@ -25,7 +25,7 @@ export default function Page() {
 
             <div className="space-y-4 md:space-y-6">
               <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold leading-tight">
-                Senior Project Manager & Quantitative Software Developer
+                Trading Technology Leader & C++ Expert
               </h1>
 
               <div className="text-base md:text-lg lg:text-xl leading-relaxed space-y-4">

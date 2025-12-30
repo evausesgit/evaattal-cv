@@ -13,8 +13,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Eva ATTAL - Senior Project Manager & Quantitative Developer</title>
-        <meta name="description" content="Eva ATTAL - Senior Project Manager & Quantitative Software Developer specializing in electronic trading and algorithmic trading systems" />
+        <title>Eva ATTAL - Trading Technology Leader & C++ Expert</title>
+        <meta name="description" content="Eva ATTAL - Trading Technology Leader & C++ Expert specializing in electronic trading, algorithmic trading systems, and low-latency infrastructure" />
       </head>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
