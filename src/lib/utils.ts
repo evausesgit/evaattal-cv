@@ -26,4 +26,8 @@ export const titles = [
   "a Technology Enthusiast",
   "a Diversity Advocate",
   "a Girls Can Code Speaker",
+  "an AI Enthusiast",
+  "passionate about AI technologies",
+  "a Continuous Learner",
+  "an Ironman Finisher",
 ]
