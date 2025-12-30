@@ -4,6 +4,28 @@ import Link from "next/link"
 export default function Page() {
   const skillCategories = [
     {
+      title: "Project Management",
+      skills: [
+        "Agile/Scrum",
+        "Book of Work management",
+        "Release & deployment processes",
+        "JIRA / Confluence",
+        "Requirements analysis",
+        "Risk mitigation"
+      ]
+    },
+    {
+      title: "Team Leadership",
+      skills: [
+        "Managing 8 developers",
+        "Cross-functional coordination (Dev, QA, APS)",
+        "Multi-site team management",
+        "Quant & business stakeholder liaison",
+        "Technical mentoring",
+        "Performance reviews"
+      ]
+    },
+    {
       title: "Languages",
       skills: ["C++", "C", "Python", "Bash"]
     },
@@ -39,28 +61,6 @@ export default function Page() {
         "Unit testing",
         "CI/CD",
         "Code review"
-      ]
-    },
-    {
-      title: "Project Management",
-      skills: [
-        "Agile/Scrum",
-        "Book of Work management",
-        "Release & deployment processes",
-        "JIRA / Confluence",
-        "Requirements analysis",
-        "Risk mitigation"
-      ]
-    },
-    {
-      title: "Team Leadership",
-      skills: [
-        "Managing 8 developers",
-        "Cross-functional coordination (Dev, QA, APS)",
-        "Multi-site team management",
-        "Quant & business stakeholder liaison",
-        "Technical mentoring",
-        "Performance reviews"
       ]
     },
     {
