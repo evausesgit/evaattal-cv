@@ -39,7 +39,7 @@ export default function Navbar() {
               </Link>
             </Button>
             <Button asChild variant="ghost" size="icon">
-              <Link href="https://github.com/evaattal" target="_blank">
+              <Link href="https://github.com/evausesgit" target="_blank">
                 <GitHubLogoIcon className="scale-125 text-purple-600 dark:text-purple-400" />
               </Link>
             </Button>

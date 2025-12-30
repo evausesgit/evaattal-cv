@@ -42,12 +42,12 @@ export default function Page() {
             <div>
               <h2 className="text-xl font-semibold mb-1">GitHub</h2>
               <a
-                href="https://github.com/evaattal"
+                href="https://github.com/evausesgit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg hover:underline"
               >
-                github.com/evaattal
+                github.com/evausesgit
               </a>
             </div>
           </div>
